@@ -9,7 +9,7 @@ create table countries.ex(
  age int check(age>=18)
  );
  
- insert into countries.ex( name, mobileno,age) values ('Navya',1234567890,21);
+ insert into countries.ex( id,name, mobileno,age) values (1,'Navya',1234567890,21);
  
  select * from countries.ex;
  
